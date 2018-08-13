@@ -1,0 +1,14 @@
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+table, tr {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+}
+
