@@ -9,32 +9,45 @@
     <title>Sparrow's Daily Food Tracker</title>
 </head>
 <body>
-    
         <table>
             <th colspan="2">Meal Times</th>
-            <tr>
+            <tr id="breakfast">
                 <td>Breakfast</td>
                 <td>6:30am - 8:00am</td>
-            
+                <td>
+
+                    <button type="button" onclick="myBreakfast()">🐱‍🚀</button>
+                </td>
             </tr>
-            <tr>
+            <tr id="lunch">
                 <td>Lunch</td>
                 <td>11:00am - 1:00pm</td>
+                <td>
+                        <button type="button" onclick="myLunch()">🐱‍👤</button>
+                </td>
                 
             </tr>
-            <tr>
+            <tr id="dinner">
                 <td>Dinner</td>
                 <td>4:30pm - 6:00pm</td>
+                <td>
+                        <button type="button" onclick="myDinner()">🐱‍🐉</button>
+                </td>
                 
             </tr>
-            <tr>
+            <tr id="eveningSnack">
                 <td>Snack</td>
                 <td>8:30pm - 10:00pm</td>
+                <td>
+                        <button type="button" onclick="mySnack()">🐱‍👓</button>
+                </td>
                 
             </tr>
         </table>
 
+      
 
-    
+
+    <script src="js/main.js"></script>
 </body>
 </html>
